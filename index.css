@@ -1,0 +1,193 @@
+/* My tabs */
+/* My tabs */
+
+.nav-tab-container {
+  margin: 1em 0.5em;
+  padding: 0 3.5em;
+}
+
+.nav-tab {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-tab-heading {
+  font-size: 32px;
+  transform: rotate(270deg);
+  vertical-align: bottom;
+}
+
+.nav-tab-heading .nav-tab-heading-text {
+  text-transform: uppercase;
+}
+
+.nav-tabs {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-tabs .nav-tabs-tablinks {
+  padding: 3em;
+  cursor: pointer;
+  user-select: none;
+  transition: all linear 0.5s;
+  position: relative;
+}
+
+.pink {
+  background-color: #f97085;
+}
+.lightpink {
+  background-color: rgba(255, 182, 193, 0.5);
+}
+.gray {
+  background-color: rgba(128, 128, 128, 0.3);
+}
+.nav-tabs-tablinks-name-primary,
+.nav-tabs-tablinks-name-secondary {
+  display: block;
+  text-align: center;
+}
+
+.nav-tab-content-container {
+  margin: 1em;
+}
+
+.content-container {
+  display: none;
+}
+
+.content-container .tab-content-name-primary {
+  display: block;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.content-container .tab-content-name-secondary {
+  display: block;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: small;
+  margin-left: 0.5em;
+}
+
+.content-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content-description .content-description-para {
+  width: 50%;
+}
+
+.content-description .content-description-images {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.content-description
+  .content-description-images
+  .content-description-image
+  figure
+  a
+  picture
+  img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.content-description-image-carousal
+  .image-carousal-container
+  .description-image
+  figure
+  a
+  picture
+  img {
+  height: 200px;
+}
+
+.image-carousal-container {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  transition: all linear 0.5s;
+}
+.content-description-image-carousal {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.image-carousal-info {
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+.image-carousal-container.slick-initialized.slick-slider.slick-vertical
+  .slick-prev.slick-arrow,
+.slick-next.slick-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 1);
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.image-carousal-container.slick-initialized.slick-slider.slick-vertical
+  .slick-prev {
+  left: 10px;
+}
+.image-carousal-container.slick-initialized.slick-slider.slick-vertical
+  .slick-next {
+  right: 10px;
+}
+
+/* My tabs */
+/* My tabs */
+
+/* slick */
+/* scale */
+
+.nav-tabs .slick-slide.slick-current.slick-active.slick-center {
+  transform: scale(1.2);
+  box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 16px 8px rgba(0, 0, 0, 0.5);
+}
+/* scale */
+/* slick */
+
+/* Vertical carousal */
+/* Vertical carousal */
+
+.image-carousal-container.slick-initialized.slick-slider .slick-vertical {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-carousal-container.slick-initialized.slick-slider
+  .slick-vertical
+  .slick-list {
+  height: 100%;
+}
+
+.image-carousal-container.slick-initialized.slick-slider .slick-vertical {
+  flex-direction: column;
+}
+.slick-vertical.slick-slider > div {
+  margin: auto;
+}
+
+/* Vertical carousal */
+/* Vertical carousal */
